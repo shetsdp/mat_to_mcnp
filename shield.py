@@ -89,7 +89,7 @@ plt.errorbar(E, values, yerr=errors, fmt='o-', capsize=3)
 plt.xscale('log')
 
 # Labels
-plt.xlabel('Energy (E)')
+plt.xlabel('Energy (MeV)')
 plt.ylabel('Value')
 plt.title('Log-scale X-axis Plot')
 

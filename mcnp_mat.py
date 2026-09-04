@@ -184,7 +184,7 @@ def build_mcnp_material_card(recipe, suffix):
     iso = element_atom_fractions_to_isotopes(elem)
     lines = ["m1"]
     for zaid in sorted(iso):
-        lines.append(f"  {zaid}{suffix} {iso[zaid]:.8e}")
+        lines.append(f"     {zaid}{suffix} {iso[zaid]:.8e}")
     return "\n".join(lines)
 
 # -----------------------------
