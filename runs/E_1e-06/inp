@@ -8,7 +8,7 @@ Neutron shielding
 4 px 12
 5 cx 999
 
-SDEF POS=0 0 0 ERG={ene} PAR=1 AXS=1 0 0 
+SDEF POS=0 0 0 ERG=1.00000e-06 PAR=1 AXS=1 0 0 
           EXT=0 RAD=0 VEC=1 0 0 DIR=1
 nps 500000
 mode n
